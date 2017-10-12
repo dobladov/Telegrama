@@ -1,0 +1,36 @@
+{
+  "extensionName": {
+    "message": "Telegrama",
+    "description": "Nombre de la extensión."
+  },
+
+  "extensionDescription": {
+    "message": "Comparte enlaces en Telegram Web.",
+    "description": "Descripción de la extensión."
+  },
+
+  "extensionAction": {
+    "message": "Compartir este enlace en Telegram Web",
+    "description": "Titulo sobre el icono"
+  },
+  "share": {
+    "message": "Compartir",
+    "description": "Indica compaticion de un elemento"
+  },
+  "page": {
+    "message": "Página",
+    "description": "Indica compaticion de una pagina"
+  },
+  "image": {
+    "message": "Imágen",
+    "description": "Indica compaticion de una imágen"
+  },
+  "link": {
+    "message": "Enlace",
+    "description": "Indica compaticion de un enlace"
+  },
+  "selection": {
+    "message": "Selección",
+    "description": "Indica compaticion de una selección"
+  }
+}

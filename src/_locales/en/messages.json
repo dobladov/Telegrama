@@ -1,0 +1,36 @@
+{
+  "extensionName": {
+    "message": "Telegrama",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Share links in Telegram Web",
+    "description": "Description of the extension."
+  },
+
+  "extensionAction": {
+    "message": "Share this link in Telegram Web",
+    "description": "Title on hover the icon"
+  },
+  "share": {
+    "message": "Share",
+    "description": "Indicate sharing of a item"
+  },
+  "page": {
+    "message": "Page",
+    "description": "Indicate sharing of a Page"
+  },
+  "image": {
+    "message": "Image",
+    "description": "Indicate sharing of a Image"
+  },
+  "link": {
+    "message": "Link",
+    "description": "Indicate sharing of a Link"
+  },
+  "selection": {
+    "message": "Selection",
+    "description": "Indicate sharing of a Selection"
+  }
+}
