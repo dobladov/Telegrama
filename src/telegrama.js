@@ -1,6 +1,6 @@
 function openTab(url) {
   if (url)
-    chrome.tabs.create( {url: `https://web.telegram.org/#/im?tgaddr=tg://msg_url?url=${encodeURI(url)}`})
+    chrome.tabs.create( {url: `https://web.telegram.org/#/im?tgaddr=tg://msg_url?url=${encodeURIComponent(url)}`})
   }
 
   function currentTab() {
