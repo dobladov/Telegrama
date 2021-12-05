@@ -1,15 +1,11 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "__MSG_extensionName__",
-  "version": "0.2.3",
-
+  "version": "0.3.0",
   "description": "__MSG_extensionDescription__",
-
   "author": "Daniel Doblado",
-
   "homepage_url": "https://github.com/dobladov/Telegrama",
-
-  "browser_action": {
+  "action": {
     "browser_style": true,
     "default_icon": {
       "16": "icons/icon16.png",
@@ -18,21 +14,19 @@
     },
     "default_title": "__MSG_extensionAction__"
   },
-
   "icons": {
     "16": "icons/icon16.png",
     "24": "icons/icon24.png",
     "48": "icons/icon48.png"
   },
-
   "background": {
-    "scripts": ["telegrama.js"]
+    "service_worker": "telegrama.js"
   },
-
-  "permissions": ["tabs", "contextMenus"],
-
+  "permissions": [
+    "tabs",
+    "contextMenus"
+  ],
   "default_locale": "en",
-
   "commands": {
     "share": {
       "suggested_key": {
